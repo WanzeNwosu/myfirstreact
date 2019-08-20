@@ -23,8 +23,20 @@
 }
 
 .search{
+  background-color: #282c34;
+
   flex-direction: column;
   justify-content: right;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: right;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.post{
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .App-link {

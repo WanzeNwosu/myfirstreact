@@ -2,7 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import Header from './Header';
 import Home from './Home';
-import SearchBar from './SearchBar'
+import SearchBar from './SearchBar';
+import Post from './post';
 import './App.css';
 
 function App() {
@@ -10,8 +11,10 @@ function App() {
     <div className="App">
      
     <Header />
-     <Home />
+     
      <SearchBar className="search"/>
+     <Home />
+     <Post className="post" />
     </div>
   );
 }
